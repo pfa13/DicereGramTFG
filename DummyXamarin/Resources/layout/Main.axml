@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="@drawable/basefinal_3"
+    android:theme="@style/MyTheme">
+    <ImageButton
+        android:src="@drawable/botonfin1"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:id="@+id/Enviar"
+        android:background="#000"
+        android:layout_marginTop="70dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="25dp" />
+    <ImageButton
+        android:src="@drawable/botonfin2"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:id="@+id/Leer"
+        android:background="#000"
+        android:layout_marginTop="145dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="150dp" />
+    <ImageButton
+        android:src="@drawable/botonfin3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/Contactos"
+        android:background="#000"
+        android:layout_marginTop="300dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="150dp" />
+    <ImageButton
+        android:src="@drawable/botonfin4"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/Configuracion"
+        android:background="#000"
+        android:layout_marginTop="390dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="25dp" />
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="55dp"
+        android:id="@+id/logout"
+        android:layout_marginTop="255dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/logout"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</RelativeLayout>

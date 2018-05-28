@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/base"
+    android:theme="@style/MyTheme">
+    <ImageView
+        android:src="@drawable/botonfin3"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:id="@+id/imageView1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+    <ImageView
+        android:src="@color/background_floating_material_light"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:id="@+id/imageView2"
+        android:layout_marginTop="190dp"
+        android:backgroundTint="#ffffffff" />
+    <ImageView
+        android:src="@color/background_floating_material_light"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:id="@+id/imageView3"
+        android:layout_marginTop="270dp"
+        android:backgroundTint="#ffffffff" />
+    <ImageView
+        android:src="@color/background_floating_material_light"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:id="@+id/imageView4"
+        android:layout_marginTop="350dp"
+        android:backgroundTint="#ffffffff" />
+    <ImageView
+        android:src="@color/background_floating_material_light"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:id="@+id/imageView5"
+        android:layout_marginTop="430dp"
+        android:backgroundTint="#ffffffff" />
+    <ImageView
+        android:src="@color/background_floating_material_light"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:id="@+id/imageView5"
+        android:layout_marginTop="510dp"
+        android:backgroundTint="#ffffffff" />
+    <Button
+        android:text="Buscar contacto"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnContactos"
+        android:layout_marginTop="207dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="@color/background_floating_material_light"
+        android:textSize="35dp"
+        android:fontFamily="@string/abc_font_family_title_material"
+        android:background="#000000" />
+    <Button
+        android:text="Actualizar contactos"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnEstados"
+        android:layout_marginTop="287dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="@color/background_floating_material_light"
+        android:textSize="35dp"
+        android:fontFamily="@string/abc_font_family_title_material"
+        android:background="#000000" />
+    <Button
+        android:text="Eliminar contacto"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnEliminar"
+        android:layout_marginTop="367dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="@color/background_floating_material_light"
+        android:textSize="35dp"
+        android:fontFamily="@string/abc_font_family_title_material"
+        android:background="#000000" />
+    <Button
+        android:text="Bloqueados"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBloquear"
+        android:layout_marginTop="447dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="@color/background_floating_material_light"
+        android:textSize="35dp"
+        android:fontFamily="@string/abc_font_family_title_material"
+        android:background="#000000" />
+</RelativeLayout>

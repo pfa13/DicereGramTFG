@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/base_login"
+    android:theme="@style/MyTheme"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <EditText
+        android:inputType="phone"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:id="@+id/editText1"
+        android:layout_marginBottom="35dp"
+        android:background="#ffffff"
+        android:layout_marginTop="330dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:backgroundTint="#ff000000"
+        android:textColor="#ffffff" />
+    <EditText
+        android:inputType="number"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:id="@+id/editText2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/editText1"
+        android:background="#ffffff"
+        android:textSize="25dp"
+        android:backgroundTint="#ff000000"
+        android:textColor="#ffffff" />
+</RelativeLayout>

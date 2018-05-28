@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:weightSum="100">
+        <TextView
+            android:text="Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tlf"
+            android:layout_weight="50"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:fontFamily="@string/abc_font_family_title_material" />
+        <TextView
+            android:text="Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/date"
+            android:layout_weight="50"
+            android:gravity="right"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:fontFamily="@string/abc_font_family_title_material" />
+    </LinearLayout>
+    <TextView
+        android:text="Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/msg"
+        android:gravity="right"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:fontFamily="@string/abc_font_family_title_material"
+        android:layout_marginBottom="15dp" />
+    <ImageView
+        android:src="@color/background_floating_material_light"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:id="@+id/imageView2"
+        android:backgroundTint="#ffffffff" />
+</LinearLayout>
